@@ -39,5 +39,8 @@
     "cview-plainalert": "file:../cview-jsbox/cview-plainalert",
     "cview-preferencelistview-static": "file:../cview-jsbox/cview-preferencelistview-static",
     "cview-util-path": "file:../cview-jsbox/cview-util-path"
+  },
+  "devDependencies": {
+    "browserify": "16.5.2"
   }
 }
