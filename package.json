@@ -1,0 +1,43 @@
+{
+  "name": "jsbox-getcookies",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./index.js",
+  "keywords": [
+    "jsbox",
+    "cview"
+  ],
+  "scripts": {
+    "install": "browserify -e ./index.js -o ~/bundle.js"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "package-lock.json"
+  ],
+  "exports": {
+    ".": [
+      {
+        "require": "./index.js",
+        "default": "./index.js"
+      },
+      "./index.js"
+    ]
+  },
+  "author": "gandum2077",
+  "license": "MIT",
+  "dependencies": {
+    "cview-baseview": "file:../cview-jsbox/cview-baseview",
+    "cview-singleviews": "file:../cview-jsbox/cview-singleviews",
+    "cview-symbol-button": "file:../cview-jsbox/cview-symbol-button",
+    "cview-dialog-sheet": "file:../cview-jsbox/cview-dialog-sheet",
+    "cview-tabbar": "file:../cview-jsbox/cview-tabbar",
+    "cview-imagepager": "file:../cview-jsbox/cview-imagepager",
+    "cview-custom-navigationbar": "file:../cview-jsbox/cview-custom-navigationbar",
+    "cview-sheet": "file:../cview-jsbox/cview-sheet",
+    "cview-inputalert": "file:../cview-jsbox/cview-inputalert",
+    "cview-plainalert": "file:../cview-jsbox/cview-plainalert",
+    "cview-preferencelistview-static": "file:../cview-jsbox/cview-preferencelistview-static",
+    "cview-util-path": "file:../cview-jsbox/cview-util-path"
+  }
+}
